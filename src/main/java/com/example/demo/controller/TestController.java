@@ -12,7 +12,7 @@ public class TestController {
 	}
 	@RequestMapping(value= {"/userLogin"},method = {RequestMethod.GET})
 	public String userLogin() {
-		return "<h1>User LoggedIn</h1>";
+		return "<h1>User SignIn</h1>";
 	}
 	@RequestMapping(value= {"/adminLogin"},method = {RequestMethod.GET})
 	public String adminLogin() {
